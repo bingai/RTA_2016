@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<package>
+  <name>g1_control</name>
+  <version>0.0.0</version>
+  <description>
+    G1 Project for Robot Training Academy
+  </description>
+
+  <maintainer email="robottrainingacademy@gmail.com">
+    Robot Training Academy Inc.
+  </maintainer>
+  <license>BSD</license>
+  <author>Robot Training Academy Inc.</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>moveit_ros_planning_interface</build_depend>
+  <build_depend>moveit_ros_planning_interface</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>g1_control_msgs</build_depend>
+  <build_depend>cmake_modules</build_depend>
+  <build_depend>hand_controller</build_depend>
+  <build_depend>tf</build_depend>
+  <build_depend>eigen_conversions</build_depend>
+  <build_depend>actionlib</build_depend>
+  <build_depend>actionlib_msgs</build_depend>
+  <build_depend>grasp_generator</build_depend>
+
+  <run_depend>moveit_ros_planning_interface</run_depend>
+  <run_depend>moveit_ros_planning_interface</run_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>g1_control_msgs</run_depend>
+  <run_depend>hand_controller</run_depend>
+  <run_depend>tf</run_depend>
+  <run_depend>eigen_conversions</run_depend>
+  <run_depend>actionlib</run_depend>
+  <run_depend>actionlib_msgs</run_depend>
+  <run_depend>grasp_generator</run_depend>
+</package>

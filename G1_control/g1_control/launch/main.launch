@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<launch>
+  <node name="control_demo" pkg="g1_control" type="control_demo" respawn="false" output="screen" args="joint_states:=/robot/joint_states" >
+  	<rosparam param="pick_object">"bowl"</rosparam>
+  	<rosparam param="pick_object_offset">[0, 0, 0]</rosparam>
+  	<rosparam param="place_location">"recycle_bin"</rosparam>
+  </node>
+</launch>

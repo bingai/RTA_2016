@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<launch>
+  <node name="microwave_test" pkg="microwave_detection" type="microwave_detect" respawn="false" output="screen" args="joint_states:=/robot/joint_states" />
+</launch>

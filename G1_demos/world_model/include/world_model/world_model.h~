@@ -1,0 +1,66 @@
+#ifndef G1_WORLD_MODEL_
+#define G1_WORLD_MODEL_
+
+#include <std_msgs/String.h>
+#include <ros/ros.h>
+#include <world_model_msgs/UpdateStatesDummy.h>
+#include <world_model_msgs/GetStatesDummy.h>
+#include <world_model_msgs/PointCloud2Service.h>
+#include <sensor_msgs/PointCloud2.h>
+#include <pcl/common/common.h>
+#include <pcl/common/geometry.h>
+#include <pcl/common/transforms.h>
+#include <pcl_conversions/pcl_conversions.h>
+#include <pcl/PCLPointCloud2.h>
+#include <pcl/conversions.h>
+#include <pcl_ros/transforms.h>
+#include <pcl_ros/point_cloud.h>
+#include <pcl/point_types.h>
+
+namespace g1
+{
+
+namespace common
+{
+
+class WorldModel
+{
+public:
+  WorldModel(ros::NodeHandle &node_handle);
+
+  ~WorldModel();
+
+  bool updateDummyStates(world_model_msgs::UpdateStatesDummy::Request  &req,
+                        world_model_msgs::UpdateStatesDummy::Response &res);
+  
+  bool getDummyStates(world_model_msgs::GetStatesDummy::Request &req,
+                     world_model_msgs::GetStatesDummy::Response &res);
+
+  bool updateTablePcd(world_model_msgs::PointCloud2Service::Request  &req,
+                      world_model_msgs::PointCloud2Service::Response &res);
+
+  bool updateTableTopPcd(world_model_msgs::PointCloud2Service::Request  &req,
+                      world_model_msgs::PointCloud2Service::Response &res);
+
+  void publishStates();
+
+private:
+  ros::Publisher publisher_;
+  ros::Publisher table_pcd_publisher_;
+  sensor_msgs::PointCloud2 table_pcd_;
+  sensor_msgs::PointCloud2 table_top_pcd_;
+
+  std::string dummy_state_;
+  ros::ServiceServer dummy_update_service_;
+  ros::ServiceServer dummy_get_service_;
+  ros::ServiceServer table_get_service_;
+  ros::ServiceServer table_top_service_;
+};
+
+
+}
+
+}
+
+#endif
+

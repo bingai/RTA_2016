@@ -1,0 +1,33 @@
+# This server takes a list of images and a bunch of bounding boxes as input
+# and return the predicted labels of each bounding box
+
+# the length of images and the length of bbox_lists should be the same
+# the length of all BBoxList should be the same and with the same set of BBox IDs
+
+sensor_msgs/Image[] images
+object_cls_msgs/BBoxList[] bbox_lists
+uint8 task
+
+uint8 TASK_TYPE_DISH = 0
+uint8 TASK_TYPE_FRIDGE = 1
+
+uint8 OBJ_BACKGROUND = 0
+
+uint8 OBJ_DISH_BOWL = 1
+uint8 OBJ_DISH_CUP = 2
+uint8 OBJ_DISH_MUG = 3
+uint8 OBJ_DISH_PLATE = 4
+
+uint8 OBJ_FRIDGE_APPLE = 1
+uint8 OBJ_FRIDGE_ORANGE = 2
+uint8 OBJ_FRIDGE_JAM = 3
+uint8 OBJ_FRIDGE_JAR = 4
+uint8 OBJ_FRIDGE_MILK = 5
+uint8 OBJ_FRIDGE_COFFEE = 6
+uint8 OBJ_FRIDGE_BOTTLE = 7
+uint8 OBJ_FRIDGE_KETCHUP = 8
+
+---
+float64[] scores
+string[] predictions
+

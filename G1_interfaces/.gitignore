@@ -1,0 +1,18 @@
+#generated IDE project files
+.idea/
+*.kdev4
+.kdev4/
+
+
+*~
+*.so
+*.o
+*.cmake
+*.make
+*.pyc
+
+# Build output
+build/
+bin/
+lib/
+

@@ -1,0 +1,991 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Inter",
+				"InteractiveMarkerControl"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"set",
+				"set_pos_x"
+			],
+			[
+				"int",
+				"int_marker"
+			],
+			[
+				"y",
+				"y_control"
+			],
+			[
+				"x",
+				"x_control"
+			],
+			[
+				"pi",
+				"position"
+			],
+			[
+				"bx",
+				"box_count"
+			],
+			[
+				"box",
+				"box_count"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"topic",
+				"topic_ns"
+			],
+			[
+				"inter",
+				"interactive_marker_ui"
+			],
+			[
+				"location",
+				"location_markers	(interactive.py)"
+			],
+			[
+				"set_",
+				"set_marker_desc"
+			],
+			[
+				"displa",
+				"display_logs	(scripts.js)"
+			],
+			[
+				"log",
+				"log_parser"
+			],
+			[
+				"logs",
+				"logs_buffer"
+			],
+			[
+				"get",
+				"get_log_type"
+			],
+			[
+				"log_",
+				"log_type"
+			],
+			[
+				"curr",
+				"curr_state	(scripts.js)"
+			],
+			[
+				"l",
+				"log_type"
+			],
+			[
+				"clic",
+				"click_srv_name	(params.js)"
+			],
+			[
+				"logs_t",
+				"logs_srv_type	(params.js)"
+			],
+			[
+				"comman",
+				"command_srv_type	(params.js)"
+			],
+			[
+				"comma",
+				"command_srv_name	(params.js)"
+			],
+			[
+				"state",
+				"state_machine	(ros_things.js)"
+			],
+			[
+				"star",
+				"start_speak"
+			],
+			[
+				"locatio",
+				"location_send"
+			],
+			[
+				"fet",
+				"fetch_img	(index.html)"
+			],
+			[
+				"cmd",
+				"cmd_err"
+			],
+			[
+				"tos",
+				"to_speak	(speech_handler.js)"
+			],
+			[
+				"world",
+				"world_model_msgs"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"fu",
+				"fullscreener"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"width",
+				"width=device	(index.html)"
+			],
+			[
+				"exi",
+				"exitFullscreen"
+			],
+			[
+				"cmd_ser",
+				"cmd_service_main	(user_interface.launch)"
+			],
+			[
+				"ute",
+				"utensil_specifier	(speech_handler.js)"
+			],
+			[
+				"loca",
+				"location_id	(speech_handler.js)"
+			],
+			[
+				"lca",
+				"location_id"
+			],
+			[
+				"worl",
+				"world_model_msgs"
+			],
+			[
+				"uten",
+				"utensil"
+			],
+			[
+				"ut",
+				"utensil_specifier"
+			],
+			[
+				"speec",
+				"speech_results"
+			],
+			[
+				"align",
+				"align-content"
+			],
+			[
+				"rel",
+				"relative"
+			],
+			[
+				"p",
+				"position"
+			],
+			[
+				"paddi",
+				"padding"
+			],
+			[
+				"alig",
+				"align-content"
+			],
+			[
+				"instr",
+				"instructions_panel	(index.html)"
+			],
+			[
+				"alog",
+				"align-content"
+			],
+			[
+				"cu",
+				"curr_state"
+			],
+			[
+				"alert",
+				"alert_user"
+			],
+			[
+				"back",
+				"background	(style.css)"
+			],
+			[
+				"logs_",
+				"logs_content"
+			],
+			[
+				"mouse",
+				"mouseenter"
+			],
+			[
+				"full",
+				"fullscreener"
+			],
+			[
+				"IMAGE",
+				"IMAGE_PORT	(params.js)"
+			],
+			[
+				"ROBOT",
+				"ROBOT_PORT	(params.js)"
+			],
+			[
+				"ROBO",
+				"ROBOT_IP	(params.js)"
+			],
+			[
+				"lo",
+				"logs_arr"
+			],
+			[
+				"appen",
+				"append_alert"
+			],
+			[
+				"fe",
+				"fetch_logs	(ros_things.js)"
+			],
+			[
+				"req",
+				"request2"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"col",
+				"column"
+			],
+			[
+				"a",
+				"absolute"
+			],
+			[
+				"unit",
+				"unit2"
+			],
+			[
+				"dur",
+				"duration2"
+			],
+			[
+				"durat",
+				"duration2"
+			],
+			[
+				"duratio",
+				"duration1"
+			],
+			[
+				"h",
+				"haystack"
+			],
+			[
+				"allow",
+				"allow_click"
+			],
+			[
+				"all",
+				"allow_click"
+			],
+			[
+				"conn",
+				"conn_stat	(index.html)"
+			],
+			[
+				"main",
+				"main_content	(index.html)"
+			],
+			[
+				"begin",
+				"begin_tour	(tour_handler.js)"
+			],
+			[
+				"tab",
+				"tab_id"
+			],
+			[
+				"resp",
+				"response"
+			],
+			[
+				"json",
+				"json_parse"
+			],
+			[
+				"paddin",
+				"padding-top"
+			],
+			[
+				"to",
+				"to_say"
+			],
+			[
+				"res",
+				"responsivevoice	(index.html)"
+			],
+			[
+				"b",
+				"bold"
+			],
+			[
+				"s",
+				"speech_results"
+			],
+			[
+				"start",
+				"start_speak	(index.html)"
+			],
+			[
+				"com",
+				"command_content"
+			],
+			[
+				"connec",
+				"connect"
+			],
+			[
+				"ali",
+				"align"
+			],
+			[
+				"ross",
+				"rows_send"
+			],
+			[
+				"cls",
+				"cols"
+			],
+			[
+				"se",
+				"send_coord	(ros_things.js)"
+			],
+			[
+				"send",
+				"send_coords"
+			],
+			[
+				"fail",
+				"fail_checker"
+			],
+			[
+				"play",
+				"playSound"
+			],
+			[
+				"ROS",
+				"ROSLIB"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"inte",
+				"intervene	(index.html)"
+			],
+			[
+				"al",
+				"alert_1	(index.html)"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"top",
+				"margin-top"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"positiv",
+				"positive_21	(fork_data.dat)"
+			],
+			[
+				"EVENT",
+				"EVENT_LBUTTONUP"
+			],
+			[
+				"cl",
+				"click_counter"
+			],
+			[
+				"c",
+				"coords"
+			],
+			[
+				"for",
+				"fork_data"
+			],
+			[
+				"num",
+				"num_input"
+			],
+			[
+				"ros",
+				"ros_img"
+			],
+			[
+				"trans",
+				"trans3_mat"
+			],
+			[
+				"tra",
+				"trans1[1"
+			],
+			[
+				"add",
+				"add_z"
+			],
+			[
+				"wos",
+				"world_x_sub"
+			],
+			[
+				"wor",
+				"world_x_sub"
+			],
+			[
+				"w",
+				"world_z"
+			],
+			[
+				"py",
+				"py_ocr"
+			],
+			[
+				"rosp",
+				"rospkg"
+			],
+			[
+				"ver",
+				"verify"
+			],
+			[
+				"dis",
+				"displayOCR"
+			],
+			[
+				"ret",
+				"return"
+			],
+			[
+				"crop",
+				"crop_offset"
+			],
+			[
+				"asty",
+				"astype('uint8	(temp_smooth.py)"
+			],
+			[
+				"ts",
+				"ts_buffer"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "re",
+		"selected_items":
+		[
+			[
+				"re",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"RE",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"ssx",
+				"Set Syntax: XML"
+			],
+			[
+				"sx",
+				"Set Syntax: XML"
+			],
+			[
+				"ss",
+				"Set Syntax: XML"
+			],
+			[
+				"markdown",
+				"Set Syntax: Markdown"
+			],
+			[
+				"mark",
+				"Markdown Preview: Export HTML in Sublime Text"
+			],
+			[
+				"packin",
+				"Package Control: Install Package"
+			],
+			[
+				"sscss",
+				"Set Syntax: CSS"
+			],
+			[
+				"ssh",
+				"Set Syntax: HTML"
+			],
+			[
+				"usr",
+				"Snippet: #!/usr/bin/env"
+			],
+			[
+				"imsh",
+				"Snippet: OpenCV imshow()"
+			],
+			[
+				"im",
+				"Snippet: OpenCV imshow()"
+			],
+			[
+				"ims",
+				"Snippet: OpenCV imshow()"
+			],
+			[
+				"usrbi",
+				"Snippet: #!/usr/bin/env"
+			],
+			[
+				"snipp",
+				"Snippet: #!/usr/bin/env"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"sspy",
+				"Set Syntax: Python"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation')",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation')",
+			"import urllib2,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation')"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/nightstalker/catkin_ws/src/interactive_marker_ui/scripts/one_marker.py",
+		"/home/nightstalker/catkin_ws/src/interactive_marker_ui/scripts/interactive.py",
+		"/home/nightstalker/catkin_ws/src/interactive_marker_ui/package.xml",
+		"/home/nightstalker/catkin_ws/src/world_model_msgs/srv/exec_state.srv",
+		"/home/nightstalker/catkin_ws/src/world_model_msgs/srv/cmd.srv",
+		"/home/nightstalker/catkin_ws/src/world_model_msgs/srv/ImageCoordinate.srv",
+		"/home/nightstalker/catkin_ws/src/user_interface_launcher/launch/user_interface.launch",
+		"/home/nightstalker/catkin_ws/src/cmd_service/scripts/cmd_service_main.py",
+		"/home/nightstalker/catkin_ws/src/cmd_service/srv/cmd.srv",
+		"/var/www/html/humanhelp/index.html",
+		"/var/www/html/humanhelp/js/ros_things.js",
+		"/home/nightstalker/Documents/g1_demos/object_position_server/src/update_position.cpp",
+		"/home/nightstalker/catkin_ws/src/state_service/scripts/state_service_main.py",
+		"/var/www/html/humanhelp/js/tour_handler.js",
+		"/home/nightstalker/catkin_ws/src/fail_service/srv/fail.srv",
+		"/home/nightstalker/catkin_ws/src/state_service/srv/exec_state.srv",
+		"/var/www/html/humanhelp/css/style.css",
+		"/opt/ros/indigo/share/rosbridge_server/launch/rosbridge_websocket.launch",
+		"/home/nightstalker/Documents/g1_interfaces/README.md",
+		"/var/www/html/humanhelp/visualize.html",
+		"/var/www/html/humanhelp/baxter_description/urdf/baxter.urdf",
+		"/var/www/html/humanhelp/urdf/baxter.urdf",
+		"/var/www/html/humanhelp/urdf/Untitled Document",
+		"/home/nightstalker/Downloads/layoutit/src/index.html",
+		"/home/nightstalker/Documents/find_silverware/cascade_training/cascade_tester.py",
+		"/home/nightstalker/Documents/find_silverware/cascade_training/bg.vec",
+		"/home/nightstalker/Documents/find_silverware/cascade_training/fork_dat.vec",
+		"/home/nightstalker/Documents/find_silverware/cascade_training/fork_data.dat",
+		"/home/nightstalker/Documents/find_silverware/cascade_training/info.dat",
+		"/home/nightstalker/catkin_ws/src/lcd_ocr/scripts/homography.py",
+		"/home/nightstalker/catkin_ws/src/lcd_ocr/scripts/displayDetect.py",
+		"/home/nightstalker/catkin_ws/src/lcd_ocr/srv/ocr.srv",
+		"/home/nightstalker/Documents/find_silverware/cascade_training/trainer.py",
+		"/home/nightstalker/Documents/find_silverware/cascade_training/fork_data.vec",
+		"/home/nightstalker/Documents/find_silverware/cascade_training/bg.txt",
+		"/home/nightstalker/Documents/find_silverware/cascade_training/haar/cascade.xml",
+		"/home/nightstalker/Documents/find_silverware/cascade_training/haar/params.xml",
+		"/home/nightstalker/Documents/find_silverware/cascade_training/positive/fork_data.dat",
+		"/home/nightstalker/catkin_ws/src/lcd_ocr/scripts/temp_smooth.py",
+		"/home/nightstalker/catkin_ws/src/button_detect/scripts/microwave_detect.py",
+		"/home/nightstalker/catkin_ws/src/button_detect/CMakeLists.txt",
+		"/home/nightstalker/catkin_ws/src/lcd_ocr/CMakeLists.txt",
+		"/home/nightstalker/catkin_ws/src/button_detect/launch/microwave_detect.launch",
+		"/home/nightstalker/Documents/find_silverware/scripts/homography.py",
+		"/home/nightstalker/Documents/find_silverware/scripts/find_silverware.py",
+		"/home/nightstalker/.config/sublime-text-3/Packages/User/CustomSnippets/opencv_imshow.sublime-snippet",
+		"/home/nightstalker/catkin_ws/src/button_detect/scripts/homography.py",
+		"/home/nightstalker/catkin_ws/src/button_detect/scripts/get3D.py",
+		"/home/nightstalker/Documents/find_silverware/image/.comments/fork1.jpg.xml",
+		"/home/nightstalker/Documents/g1_vision/README.txt",
+		"/home/nightstalker/catkin_ws/src/lcd_ocr/scripts/ocr_stuff.sublime-project",
+		"/home/nightstalker/Documents/microwaveDisplay/temp_smooth.py",
+		"/home/nightstalker/Documents/microwaveDisplay/displayDetect.py",
+		"/home/nightstalker/Downloads/letsgodigital.traineddata",
+		"/usr/share/tesseract-ocr/tessdata/configs/bigram",
+		"/usr/share/tesseract-ocr/tessdata/configs/api_config",
+		"/usr/share/tesseract-ocr/tessdata/configs/digits",
+		"/home/nightstalker/Documents/microwaveDisplay/homography.py",
+		"/home/nightstalker/Documents/microwaveDisplay/thinning.py",
+		"/etc/ntp.conf",
+		"/home/nightstalker/Documents/STT/STT.sublime-workspace",
+		"/home/nightstalker/Documents/STT/scripts/nlp.py",
+		"/home/nightstalker/Documents/STT/scripts/main.py",
+		"/home/nightstalker/Documents/STT/scripts/transcribe.py",
+		"/home/nightstalker/Documents/STT/scripts/audio_class.py",
+		"/home/nightstalker/Documents/STT/scripts/file_class.py",
+		"/home/nightstalker/Documents/STT/data/record.sh",
+		"/home/nightstalker/.config/sublime-text-3/Packages/User/Main.sublime-menu",
+		"/home/nightstalker/play_pause.sh",
+		"/home/nightstalker/Documents/microwaveDisplay/img_capture.py",
+		"/home/nightstalker/catkin_ws/src/button_detect/msg/Start_box.msg",
+		"/home/nightstalker/catkin_ws/src/button_detect/package.xml",
+		"/home/nightstalker/catkin_ws/src/button_detect/scripts/range_test.py",
+		"/home/nightstalker/catkin_ws/src/baxter_examples/src/baxter_examples/recorder.py",
+		"/home/nightstalker/catkin_ws/src/baxter_examples/scripts/joint_recorder.py",
+		"/home/nightstalker/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/nightstalker/Documents/STT/scripts/main.py.bak",
+		"/home/nightstalker/Documents/STT/data/speech_data.txt",
+		"/home/nightstalker/Documents/STT/scripts/saver_class.py",
+		"/home/nightstalker/Documents/STT/scripts/most_main.py",
+		"/home/nightstalker/Documents/STT/data/play.sh",
+		"/home/nightstalker/catkin_ws/src/STT/scripts/transcribe.py",
+		"/home/nightstalker/catkin_ws/src/STT/scripts/saver_class.py",
+		"/home/nightstalker/catkin_ws/src/STT/scripts/nlp.py",
+		"/home/nightstalker/catkin_ws/src/STT/scripts/audio_class.py",
+		"/home/nightstalker/catkin_ws/src/STT/scripts/main.py",
+		"/home/nightstalker/catkin_ws/src/STT/data/play.sh",
+		"/home/nightstalker/catkin_ws/src/STT/data/record.sh",
+		"/home/nightstalker/catkin_ws/src/STT/scripts/ros.py",
+		"/home/nightstalker/catkin_ws/src/STT/data/speech_data.txt",
+		"/home/nightstalker/catkin_ws/src/STT/scripts/houndify.py",
+		"/home/nightstalker/catkin_ws/src/button_detect/src/scripts/homography.py",
+		"/home/nightstalker/catkin_ws/src/button_detect/src/scripts/microwave_detect.py",
+		"/home/nightstalker/catkin_ws/src/button_detect/src/launch/microwave_detect.launch",
+		"/home/nightstalker/catkin_ws/src/button_detect/src/msg/Start_box.msg",
+		"/home/nightstalker/catkin_ws/src/STT/CMakeLists.txt",
+		"/home/nightstalker/catkin_ws/src/button_detect/src/scripts/main.py",
+		"/home/nightstalker/Documents/microwaveOCR/homography.py",
+		"/home/nightstalker/Documents/microwaveOCR/main.py",
+		"/home/nightstalker/catkin_ws/src/gui/CMakeLists.txt",
+		"/home/nightstalker/Documents/microwaveOCR/sift.py",
+		"/home/nightstalker/Documents/microwaveOCR/template.py",
+		"/home/nightstalker/Documents/microwaveOCR/orb.py",
+		"/home/nightstalker/Documents/microwaveOCR/SIFT/CMakeLists.txt",
+		"/home/nightstalker/Documents/microwaveOCR/SIFT/include/sift_engine.hpp",
+		"/home/nightstalker/Documents/microwaveOCR/SIFT/test.cpp",
+		"/home/nightstalker/Downloads/SiftGPU/makefile",
+		"/home/nightstalker/Downloads/glew/cmake-testbuild.sh",
+		"/home/nightstalker/Downloads/glew/Makefile",
+		"/home/nightstalker/Downloads/glew/make",
+		"/home/nightstalker/Downloads/SiftGPU/OpenGL_and_CUDA.txt",
+		"/home/nightstalker/Downloads/SiftGPU/README.txt",
+		"/home/nightstalker/Documents/microwaveOCR/test.cpp",
+		"/home/nightstalker/Documents/microwaveOCR/test.py",
+		"/home/nightstalker/Documents/microwaveOCR/out.txt",
+		"/var/www/html/vrview/index.html",
+		"/var/www/html/vrview/index2.html",
+		"/opt/ros/indigo/share/usb_cam/launch/usb_cam_webcam.launch",
+		"/var/www/html/vrview/js/three.min.js",
+		"/var/www/html/vrview/.htaccess",
+		"/var/www/html/vrview/rosjs.html",
+		"/home/nightstalker/Downloads/PiViewer-master/js/StereoEffect.js",
+		"/home/nightstalker/Downloads/PiViewer-master/index.html",
+		"/home/nightstalker/catkin_ws/src/CMakeLists.txt",
+		"/home/nightstalker/catkin_ws/src/STT/package.xml",
+		"/home/nightstalker/catkin_ws/src/STT/scripts/sample_wave.py",
+		"/home/nightstalker/Downloads/houndify_python27_sdk_0.2.2/sample_wave.py",
+		"/home/nightstalker/Downloads/houndify_python27_sdk_0.2.2/out.txt"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"rotate_control",
+			"control2",
+			"rotate_control",
+			"control",
+			"x_control",
+			"scale",
+			"control_count",
+			"control_list",
+			"scale",
+			"x_control",
+			"logs_timer",
+			"      \n",
+			"(){$(\"#",
+			"';\n",
+			"cmd_location_id",
+			"log_type",
+			"fail",
+			"lg",
+			" col-xs-6",
+			"      \n",
+			" btn-group-lg",
+			"true",
+			"state",
+			"in the",
+			"The",
+			"the",
+			"length",
+			"alert",
+			"unit1",
+			"($(\"#",
+			";\n",
+			"food",
+			";\n",
+			"baxter_description/",
+			"meshes",
+			"baxter_description/meshes",
+			"baxter_description/",
+			"baxter_description",
+			"Robot",
+			";\n",
+			"negative",
+			",",
+			"0",
+			"negative",
+			"negative_01",
+			"0",
+			"find_fork_spoon",
+			"trans1_mat",
+			"10",
+			"cap = None\n	crop = 0\n	img2 = None\n	verify = False\n	ts_buffer = None\n	blah = 0\n	numpad = 0",
+			"print",
+			"crop",
+			"segm_done",
+			"90",
+			")\n",
+			"mat2",
+			"rotation_matrix",
+			"\n    >>>",
+			"\n    ",
+			"    >>>",
+			"1",
+			"right_hand_camera",
+			"duration",
+			"+ ",
+			"Utensil",
+			"utensil",
+			"Food",
+			"food",
+			"Appliance",
+			"appliance",
+			"Action",
+			"action",
+			"len",
+			"Utensil",
+			"utensil",
+			"24",
+			"3",
+			"5",
+			"fgmask",
+			"0",
+			"set_tl",
+			"[0,0]",
+			" [",
+			"br",
+			"50",
+			"200",
+			"past_",
+			"tl",
+			"SPIN",
+			"int(",
+			"\n        ",
+			"x",
+			"fx",
+			"int",
+			"box",
+			"int8",
+			"float32",
+			"        \n",
+			"todo_utf",
+			"\n}",
+			"\n            ",
+			"\")",
+			"GLEW_USE_STATIC_LIBS=ON ./cmake-testbuild.sh",
+			"small",
+			"small*",
+			"\n  ",
+			"small*",
+			"0"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Python/Python.sublime-build",
+	"project": "ros_things.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Documents/STT/STT.sublime-workspace"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

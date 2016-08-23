@@ -1,0 +1,9 @@
+<launch>
+
+    <node pkg="object_cls_node" type="get_object_class_server.py" name="get_object_class_server" output="screen" />
+
+    <node pkg="object_tracker_2d" type="object_tracker_2d" name="object_tracker_2d" output="screen" />
+
+
+</launch>
+

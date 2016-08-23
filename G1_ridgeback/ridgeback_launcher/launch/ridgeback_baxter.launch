@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<launch>
+  <!-- ridgeback urdf-->
+  <!-- node name="ridgeback_urdf_publisher" pkg="baxter_examples" type="send_urdf_fragment.py" args="-f $(find control_main)/config/baxter_ridgeback.urdf.xacro -l torso -j pedestal_fixed" output="screen" / -->
+
+  <!-- remap for joint_states-->
+  <node name="states_remapper" pkg="ridgeback_launcher" type="remap.py" args="" output="screen" />
+
+  <!-- send the map server-->
+  <node name="map_server" pkg="map_server" type="map_server" args="$(find ridgeback_launcher)/config/demo_map.yaml" output="screen" />
+
+  <!-- laser scan match launch file-->
+  <include file="$(find ridgeback_launcher)/launch/laser_scan_map.launch" />
+
+  <!-- include acml launch file-->
+  <include file="$(find ridgeback_launcher)/launch/amcl.launch" />
+
+  <!-- robot pose publisher-->
+  <node name="robot_pose_publisher" pkg="robot_pose_publisher" type="robot_pose_publisher" args="" output="screen" />
+
+
+</launch>

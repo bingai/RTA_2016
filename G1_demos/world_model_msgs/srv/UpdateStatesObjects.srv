@@ -1,0 +1,9 @@
+#
+world_model_msgs/Object[] objects_info
+int8 operation
+
+int8 DELETE = 1
+int8 UPDATE = 0
+
+---
+bool success

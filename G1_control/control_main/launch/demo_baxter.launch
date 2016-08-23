@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<launch>
+  <arg name="config" default="true"/>
+  <arg name="rviz_config" default="$(find baxter_moveit_config)/launch/moveit.rviz" />
+
+  <!-- action server -->
+ 	<node name="joint_trajectory_action_server" pkg="baxter_interface" type="joint_trajectory_action_server.py">
+    <rosparam command="load" file="$(find control_main)/config/joint_trajectory_params.yaml" />
+  </node>
+
+  <!-- hand urdf-->
+  <node name="hand_urdf_publisher" pkg="baxter_examples" type="send_urdf_fragment.py" args="-f $(find control_main)/config/baxter_reflex_model.urdf.xacro -l right_hand -j right_gripper_base" output="screen" />
+
+  
+  <node name="left_gripper_urdf_publisher" pkg="baxter_examples" type="send_urdf_fragment.py" args="-f $(find control_main)/config/left_end_effector.urdf.xacro -l left_hand -j left_gripper_base" output="screen" />
+
+  <!--reflex hand mass --> 
+  <node pkg="rostopic" type="rostopic" name="reflex_hand_mass" args="pub -l /robot/end_effector/right_gripper/command baxter_core_msgs/EndEffectorCommand -f $(find control_main)/config/reflex_mass.yaml" output="screen"/>
+  
+  <node name="hand_visualizer" pkg="reflex_visualizer" type="hand_visualizer" output="screen" /> 
+
+  <rosparam param="/g1_control/initial_arms" command="load" file="$(find control_main)/config/initial_arms_params.yaml" />
+
+  <!-- By default we do not overwrite the URDF. Change the following to true to change the default behavior  -->
+  <arg name="load_robot_description" default="false"/>
+  
+  <!-- Left and right electric gripper params. Set to true to check for collisions for their links  -->
+  <arg name="right_electric_gripper" default="false"/>
+  <arg name="left_electric_gripper" default="true"/>
+  <arg name="left_reflex_hand" default="false"/>
+  <arg name="right_reflex_hand" default="true"/>
+  <!-- Set the kinematic tips for the left_arm and right_arm move_groups  -->
+  <arg name="left_tip_name" default="left_gripper"/>
+  <arg name="right_tip_name" default="right_gripper"/>
+  <include file="$(find baxter_moveit_config)/launch/planning_context.launch">
+    <arg name="load_robot_description" value="$(arg load_robot_description)"/>
+    <arg name="left_electric_gripper" value="$(arg left_electric_gripper)"/>
+    <arg name="left_reflex_hand" value="$(arg left_reflex_hand)"/>
+    <arg name="right_reflex_hand" value="$(arg right_reflex_hand)"/>
+    <arg name="right_electric_gripper" value="$(arg right_electric_gripper)"/>
+    <arg name="left_tip_name" value="$(arg left_tip_name)"/>
+    <arg name="right_tip_name" value="$(arg right_tip_name)"/>
+  </include>
+
+  <include file="$(find baxter_moveit_config)/launch/move_group.launch">
+    <arg name="allow_trajectory_execution" value="true"/>
+  </include>
+  
+  <include file="$(find baxter_moveit_config)/launch/moveit_rviz.launch">
+    <arg name="config" value="$(arg config)" />
+    <arg name="rviz_config" value="$(arg rviz_config)" />
+  </include>
+
+
+</launch>

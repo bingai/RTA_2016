@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<launch>
+  <arg name="file_path" default="$(find world_model)/config/initial_scene_update.yaml" />
+  <arg name="read_path" default="$(find world_model)/config/initial_scene_update.yaml" />
+  <node name="world_model" pkg="world_model" type="world_model" respawn="false" output="screen" >
+    <rosparam command="load" ns="initial_scene" file="$(arg read_path)" />
+    <rosparam param="file_path" subst_value="True">$(arg file_path)</rosparam>
+  </node>
+  
+</launch>

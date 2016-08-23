@@ -1,0 +1,16 @@
+# update locations
+world_model_msgs/Location[] locations
+
+# read location string
+string location_id
+
+# operation
+int8 operation
+
+int8 READ = 0 
+int8 UPDATE = 1
+int8 DELETE = 2
+
+---
+bool success
+world_model_msgs/Location[] locations 

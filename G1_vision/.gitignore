@@ -1,0 +1,26 @@
+#generated IDE project files
+.idea/
+*.kdev4
+.kdev4/
+
+rta_openni/assets/calibration_ir_rgb.xml
+rta_openni/assets/calibration_ir_arm.xml
+rta_openni/assets/calibration_arm_ir.xml
+rta_openni/assets/calibration_depth_ir_rgb.xml
+rta_openni/assets/depth_displacement.xml
+
+*~
+*.so
+*.o
+*.cmake
+*.make
+*.pyc
+
+# Build output
+build/
+bin/
+lib/
+
+# Caffe models
+.caffemodel
+.solverstate

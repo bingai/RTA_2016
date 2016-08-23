@@ -1,0 +1,5 @@
+<launch>
+  <include file="$(find openni_launch)/launch/openni.launch"/>
+  <node name="kinect_calibration" pkg="kinect_calibration" type="publish_kinect_tf.py"/>
+  <node name="base_frame_points" pkg="publish_base_registered_points" type="publish_base_points"/>
+</launch>

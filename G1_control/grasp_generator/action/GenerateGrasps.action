@@ -1,0 +1,8 @@
+#goal
+world_model_msgs/Object object
+---
+#result
+grasp_generator/Grasp[] grasps
+---
+#feedback
+grasp_generator/Grasp[] grasps

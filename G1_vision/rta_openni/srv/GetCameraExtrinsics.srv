@@ -1,0 +1,4 @@
+---
+string message
+float64[9] color_rotation
+float64[3] color_translation

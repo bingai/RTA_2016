@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package>
+  <name>control_main</name>
+  <version>0.0.0</version>
+  <description>
+    G1 Project for Robot Training Academy
+  </description>
+
+  <maintainer email="robottrainingacademy@gmail.com">
+    Robot Training Academy Inc.
+  </maintainer>
+  <license>BSD</license>
+  <author>Robot Training Academy Inc.</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>baxter_description</build_depend>
+  <run_depend>baxter_description</run_depend>
+
+</package>

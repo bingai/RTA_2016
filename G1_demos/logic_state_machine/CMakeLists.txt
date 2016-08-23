@@ -1,0 +1,43 @@
+cmake_minimum_required(VERSION 2.8.3)
+project(logic_state_machine)
+
+## Find catkin macros and libraries
+## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
+## is used, also find other catkin packages
+find_package(catkin REQUIRED COMPONENTS
+  roscpp
+  rospy
+  std_msgs
+  world_model_msgs
+  microwave_detection
+  g1_control
+  reconstruction_msgs
+  reconstruction
+  object_detection_3d_node
+)
+
+catkin_package(
+  INCLUDE_DIRS include
+  LIBRARIES logic_state_machine
+  CATKIN_DEPENDS roscpp rospy std_msgs world_model_msgs g1_control microwave_detection reconstruction_msgs reconstruction object_detection_3d_node
+#  DEPENDS system_lib
+)
+
+###########
+## Build ##
+###########
+
+## Specify additional locations of header files
+## Your package locations should be listed before other locations
+include_directories(include)
+include_directories(
+  ${catkin_INCLUDE_DIRS}
+)
+
+
+add_library(logic_state_machine src/StateMachine.cpp)
+target_link_libraries(logic_state_machine ${catkin_LIBRARIES})
+
+add_executable(main src/main.cpp)
+target_link_libraries(main ${catkin_LIBRARIES} logic_state_machine)
+

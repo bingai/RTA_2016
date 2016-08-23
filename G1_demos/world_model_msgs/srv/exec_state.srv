@@ -1,0 +1,3 @@
+int32 get_state
+---
+int32 curr_state

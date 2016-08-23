@@ -1,0 +1,50 @@
+cmake_minimum_required(VERSION 2.8.3)
+project(world_model)
+
+find_package(catkin REQUIRED COMPONENTS
+  roscpp
+  std_msgs
+  world_model_msgs
+  pcl_conversions
+  pcl_ros
+  # g1_control
+  eigen_conversions
+  rviz_visual_tools
+)
+
+find_package(PCL 1.8.0 EXACT REQUIRED)
+
+catkin_package(
+   INCLUDE_DIRS include
+#  LIBRARIES world_model
+   # CATKIN_DEPENDS roscpp std_msgs pcl_conversions pcl_ros g1_control rviz_visual_tools
+   CATKIN_DEPENDS roscpp std_msgs pcl_conversions pcl_ros rviz_visual_tools
+   DEPENDS pcl
+)
+
+include_directories(include)
+include_directories(
+  ${catkin_INCLUDE_DIRS}
+)
+
+## Declare a C++ executable
+add_executable(world_model src/world_model.cpp)
+add_dependencies(world_model world_model_generate_messages_cpp ${catkin_EXPORTED_TARGETS}) # don't build until necessary msgs are finish
+
+## Specify libraries to link a library or executable target against
+target_link_libraries(world_model
+  ${catkin_LIBRARIES}
+)
+
+## Mark executables and/or libraries for installation
+install(TARGETS world_model
+  ARCHIVE DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
+  LIBRARY DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
+  RUNTIME DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
+)
+
+## Mark cpp header files for installation
+install(DIRECTORY include/
+  DESTINATION ${CATKIN_PACKAGE_INCLUDE_DESTINATION}
+)
+

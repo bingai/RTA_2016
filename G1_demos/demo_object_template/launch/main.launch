@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<launch>
+  <node name="demo_object_template" pkg="demo_object_template" type="demo_object_template" respawn="false" output="screen" args="joint_states:=/robot/joint_states" />
+</launch>

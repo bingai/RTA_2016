@@ -1,0 +1,12 @@
+scene:
+  [
+    {id: table, primitives: [{shape: 1, dimensions: [0.8, 1.6, 1.0] } ], primitive_poses: [[0.72, 0.0, -0.69, 0.0, 0.0, 0.0, 1.0]]}
+  ]
+objects:
+  [
+    {id: bowl, primitives: [{shape: 3, dimensions: [0.07, 0.09] } ], primitive_poses: [[0.74, -0.47, -0.15, 0.0, 0.0, 0.0, 1.0]]}
+  ]
+locations:
+  [
+    {id: recyle_bin, position: [0.6, -0.2, -0.15]}
+  ]

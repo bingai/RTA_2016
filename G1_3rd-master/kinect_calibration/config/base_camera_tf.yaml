@@ -1,0 +1,5 @@
+trans: [-0.0900199777109, 0.11213087942, -0.0481981315485, ]
+rot: [0.0059125639262, -0.715582036738, -0.0302334300887, 0.697849073934, ]
+parent: /left_gripper_base
+#child: /rta_openni/xtion_link
+child: /camera_link

@@ -1,0 +1,8 @@
+string point_cloud_id
+string space_id
+uint8 space_type
+uint8 TABLE_TOP = 0
+uint8 FRIDGE_INTERIOR = 1
+uint8 FRIDGE_EXTERIOR = 2
+---
+bool success

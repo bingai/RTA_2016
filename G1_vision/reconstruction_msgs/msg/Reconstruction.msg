@@ -1,0 +1,4 @@
+sensor_msgs/PointCloud2 model_point_cloud
+float32[] model_keypoint_world_coordinates
+float32[] model_keypoint_descriptors
+RegisteredView[] registered_views

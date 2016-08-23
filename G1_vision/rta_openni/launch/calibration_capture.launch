@@ -1,0 +1,10 @@
+<!-- Entry point for using OpenNI2 devices -->
+<launch>
+    <node pkg="rta_openni" type="calibration_capture" name="calibration_capture" output="screen"/>
+    <node pkg="baxter_tools" type="camera_control.py" name="hand_res" args="-o left_hand_camera -r 1280x800"/>
+    <!-- launch-prefix="gdb -ex run"/>-->
+    <arg name="output_folder" default=""/>
+    <arg name="start_at" default="0"/>
+    <param name="output_folder" type="str" value="$(arg output_folder)"/>
+    <param name="start_at" type="int" value="$(arg start_at)"/>
+</launch>

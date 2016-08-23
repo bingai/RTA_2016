@@ -1,0 +1,9 @@
+locations: []
+objects: []
+scene:
+- id: table
+  primitive_poses:
+  - [0.9, -0.2, -0.69, 0.0, 0.0, 0.0, 1.0]
+  primitives:
+  - dimensions: [0.62, 1.45, 1.0]
+    shape: 1

@@ -1,0 +1,3 @@
+string reconstruction_id
+---
+world_model_msgs/Object[] objects

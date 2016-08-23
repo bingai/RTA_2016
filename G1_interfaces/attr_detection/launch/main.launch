@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+  <remap from="/camera/depth_registered/points" 
+  	to="/remote/camera/depth_registered/points"/>	
+  <node name="attr_detect" pkg="attr_detection" type="attr_detect" respawn="false" output="screen" />
+</launch>

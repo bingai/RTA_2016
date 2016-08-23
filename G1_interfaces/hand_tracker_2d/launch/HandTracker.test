@@ -1,0 +1,14 @@
+<launch>
+
+    <node pkg="object_tracker_2d" type="image_talker.py" name="image_talker"
+    args="/home/fwang/Programs/ObjectSegmentation/RawData/dish_classification/kinect /home/fwang/Programs/ObjectSegmentation/RawData/dish_classification/kinect_images.txt">
+        <remap from="head_camera_rgb" to="/camera/rgb/image" />
+    </node>
+
+    <node pkg="hand_tracker_2d" type="hand_tracker_2d" name="hand_tracker_2d" output="screen" />
+
+</launch>
+
+<!--
+$ rostopic pub -1 /interact/hand_location hand_tracker_2d/HandBBox '{stamp: {secs: 0, nsecs: 0}, box: [200, 200, 250, 250]}'
+-->

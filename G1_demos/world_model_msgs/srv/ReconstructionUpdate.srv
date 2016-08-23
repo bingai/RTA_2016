@@ -1,0 +1,7 @@
+string id
+reconstruction_msgs/Reconstruction reconstruction
+int8 operation
+int8 UPDATE = 0
+int8 DELETE = 1
+---
+bool success

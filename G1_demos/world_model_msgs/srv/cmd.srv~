@@ -1,0 +1,6 @@
+string action
+string utensil_specifier
+string utensil
+string location_id
+---
+int cmd_state

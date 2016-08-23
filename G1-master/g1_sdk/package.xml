@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package>
+  <name>g1_sdk</name>
+  <version>0.0.0</version>
+  <description>
+    G1 Project for Robot Training Academy
+  </description>
+
+  <maintainer email="robottrainingacademy@gmail.com">
+    Robot Training Academy Inc.
+  </maintainer>
+  <license>BSD</license>
+  <author>Robot Training Academy Inc.</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <run_depend>g1_demos</run_depend>
+  <run_depend>g1_vision</run_depend>
+  <run_depend>g1_control</run_depend>
+  
+  <export>
+    <metapackage/>
+  </export>
+
+</package>

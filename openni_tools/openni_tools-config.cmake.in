@@ -1,0 +1,32 @@
+# ===================================================================================
+#  The openni_tools CMake configuration file
+#
+#             ** File generated automatically, do not modify **
+#
+#  Usage from an external project:
+#    In your CMakeLists.txt, after defining your target, add these lines:
+#
+#    find_package(openni_tools REQUIRED )
+#    target_include_directories(MY_TARGET_NAME PUBLIC ${OPENNI_TOOLS_INCLUDE_DIRS})
+#    target_link_libraries(MY_TARGET_NAME ${OPENNI_TOOLS_LIBRARIES})
+#
+#
+#    This file will define the following variables:
+#      - OPENNI_TOOLS_LIBRARIES      : The list of libraries to links against.
+#      - OPENNI_TOOLS_LIBRARY_DIRS   : The directory where lib files are. Calling
+#                                      LINK_DIRECTORIES with this path is NOT needed.
+#      - OPENNI_TOOLS_INCLUDE_DIRS   : The Namaris include directories.
+#
+#
+# ===================================================================================
+
+@PACKAGE_INIT@
+
+set_and_check(OPENNI_TOOLS_INCLUDE_DIRS "@PACKAGE_OPENNI_TOOLS_INCLUDE_DIRS@")
+set_and_check(OPENNI_TOOLS_LIBRARY_DIRS "@PACKAGE_OPENNI_TOOLS_LIB_DIR@")
+
+# Set library names
+set(OPENNI_TOOLS_LIBRARIES
+    "@PACKAGE_OPENNI_TOOLS_LIB_DIR@/@OPENNI_CAPTURE_LIBRARY@"
+    "@PACKAGE_OPENNI_TOOLS_LIB_DIR@/@OPENNI_CALIBRATION_LIBRARY@"
+)

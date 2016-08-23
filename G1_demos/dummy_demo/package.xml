@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package>
+  <name>dummy_demo</name>
+  <version>0.0.0</version>
+  <description>The dummy demo package</description>
+
+  <maintainer email="arc@todo.todo">arc</maintainer>
+
+  <license>TODO</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>dummy_vision</build_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>std_msgs</run_depend>
+  <run_depend>dummy_vision</run_depend>
+
+  <export>
+
+  </export>
+</package>

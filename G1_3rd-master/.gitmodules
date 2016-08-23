@@ -1,0 +1,7 @@
+[submodule "reflex-ros-pkg"]
+	path = reflex-ros-pkg
+  url = https://github.com/robottrainingacademy/reflex-ros-pkg.git 
+[submodule "moveit_robots"]
+	path = moveit_robots
+  url = https://github.com/robottrainingacademy/moveit_robots.git
+	

@@ -1,0 +1,21 @@
+- git:
+    local-name: g1 
+    uri: https://github.com/robottrainingacademy/G1.git
+    version: master
+- git:
+    local-name: g1_demos
+    uri: https://github.com/robottrainingacademy/G1_demos.git
+    version: master
+- git:
+    local-name: g1_vision
+    uri: https://github.com/robottrainingacademy/G1_vision.git
+    version: master
+- git:
+    local-name: g1_control
+    uri: https://github.com/robottrainingacademy/G1_control.git
+    version: master
+- git:
+    local-name: g1_3rd
+    uri: https://github.com/robottrainingacademy/G1_3rd.git
+    version: master
+ 

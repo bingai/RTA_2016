@@ -1,0 +1,4 @@
+trans: [0.314807, -0.0825921, 0.7966] 
+rot: [0.691955, -0.681662, 0.192709, -0.139281] 
+parent: /base
+child: /top_down_camera_link

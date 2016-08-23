@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opencv_storage>
+  <Rig>
+    <Cameras>
+      <_>
+        <Intrinsics>
+          <resolution>
+            <width>640</width>
+            <height>480</height>
+          </resolution>
+          <intrinsic_mat type_id="opencv-matrix">
+            <rows>3</rows>
+            <cols>3</cols>
+            <dt>d</dt>
+            <data> 572.88839075 0. 321.31442785 0. 575.91891805 249.1482584 0. 0. 1. </data>
+          </intrinsic_mat>
+          <distortion_coeffs type_id="opencv-matrix">
+            <rows>5</rows>
+            <cols>1</cols>
+            <dt>d</dt>
+            <data>-0.06162908 0.2172489 0.00098253 0.00136719 -0.38889156</data>
+          </distortion_coeffs>
+          <error>0.1582340264276981</error>
+          <time>85.4660997390747</time>
+          <calibration_image_count>110</calibration_image_count>
+        </Intrinsics>
+      </_>
+      <_>
+        <Intrinsics>
+          <resolution>
+            <width>640</width>
+            <height>480</height>
+          </resolution>
+          <intrinsic_mat type_id="opencv-matrix">
+            <rows>3</rows>
+            <cols>3</cols>
+            <dt>d</dt>
+            <data> 536.9749199 0. 327.12983786 0. 539.63086975 241.55245842 0. 0. 1. </data>
+          </intrinsic_mat>
+          <distortion_coeffs type_id="opencv-matrix">
+            <rows>5</rows>
+            <cols>1</cols>
+            <dt>d</dt>
+            <data> 0.04433428 -0.17731821 0.00096924 0.00087128 0.09194481</data>
+          </distortion_coeffs>
+          <error>0.18305784087171917</error>
+          <time>131.13383650779724</time>
+          <calibration_image_count>110</calibration_image_count>
+        </Intrinsics>
+        <Extrinsics>
+          <rotation type_id="opencv-matrix">
+            <rows>3</rows>
+            <cols>3</cols>
+            <dt>d</dt>
+            <data> 0.99997757 -0.00645436 -0.00178762 0.00645189 0.99997823 -0.00138335 0.00179651 0.00137178 0.99999745</data>
+          </rotation>
+          <translation type_id="opencv-matrix">
+            <rows>3</rows>
+            <cols>1</cols>
+            <dt>d</dt>
+            <data>-0.02634218 -0.00050703 -0.00086006</data>
+          </translation>
+          <error>0.9392126500770304</error>
+          <time>88.9698224067688</time>
+          <calibration_image_count>110</calibration_image_count>
+        </Extrinsics>
+      </_>
+    </Cameras>
+  </Rig>
+</opencv_storage>

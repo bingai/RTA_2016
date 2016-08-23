@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<launch>
+  <node name="reconstruction_test_demo" pkg="reconstruction" type="reconstruction_test" respawn="false" output="screen" args="table_top joint_states:=/robot/joint_states" />
+</launch>

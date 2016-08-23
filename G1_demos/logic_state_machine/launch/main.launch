@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<launch>
+  <arg name="file_path" default="$(find logic_state_machine)/launch/program.yaml" />
+
+  <node name="state_machine_demo" pkg="logic_state_machine" type="main" respawn="false" output="screen" args="joint_states:=/robot/joint_states" >
+    <rosparam command="load" ns="program_order" file="$(find logic_state_machine)/launch/program.yaml" />
+    <rosparam param="file_path" subst_value="True">$(arg file_path)</rosparam>
+  </node>
+</launch>

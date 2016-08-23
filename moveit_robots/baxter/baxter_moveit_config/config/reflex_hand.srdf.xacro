@@ -1,0 +1,165 @@
+<?xml version="1.0" ?>
+<!--This does not replace URDF, and is not an extension of URDF.
+    This is a format for representing semantic information about the robot structure.
+    A URDF file must exist for this robot as well, where the joints and the links that are referenced are defined
+-->
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="reflex_hand">
+    <xacro:macro name="reflex_hand" params="side">
+
+      <disable_collisions link1="right_gripper_base" link2="base_tactile" reason="Adjacent" />
+      
+      <disable_collisions link1="right_gripper_base" link2="right_gripper" reason="Adjacent" />
+      
+      <disable_collisions link1="right_gripper_base" link2="pad" reason="Adjacent" />
+      
+      <disable_collisions link1="right_gripper_base" link2="swivel_1" reason="Adjacent" />
+      <disable_collisions link1="swivel_1" link2="proximal_1" reason="Adjacent" />
+      <disable_collisions link1="proximal_1" link2="finger_1_/flex_link_1_" reason="Adjacent" />
+      <disable_collisions link1="finger_1_/flex_link_1_" link2="finger_1_/flex_link_2_" reason="Adjacent" />
+      <disable_collisions link1="finger_1_/flex_link_2_" link2="finger_1_/flex_link_3_" reason="Adjacent" />
+      <disable_collisions link1="finger_1_/flex_link_3_" link2="finger_1_/flex_link_4_" reason="Adjacent" />
+      <disable_collisions link1="finger_1_/flex_link_4_" link2="finger_1_/flex_link_5_" reason="Adjacent" />
+      <disable_collisions link1="finger_1_/flex_link_5_" link2="finger_1_/flex_link_6_" reason="Adjacent" />
+      <disable_collisions link1="finger_1_/flex_link_6_" link2="finger_1_/flex_link_7_" reason="Adjacent" />
+      <disable_collisions link1="finger_1_/flex_link_7_" link2="finger_1_/flex_link_8_" reason="Adjacent" />
+      <disable_collisions link1="finger_1_/flex_link_8_" link2="finger_1_/flex_link_9_" reason="Adjacent" />
+      <disable_collisions link1="finger_1_/flex_link_9_" link2="distal_1" reason="Adjacent" />
+      <disable_collisions link1="distal_1" link2="distal_pad_1" reason="Adjacent" />
+      <disable_collisions link1="distal_1" link2="distal_1_tactile" reason="Adjacent" />
+      <disable_collisions link1="proximal_1" link2="proximal_pad_1" reason="Adjacent" />
+      <disable_collisions link1="proximal_1" link2="proximal_1_tactile" reason="Adjacent" />
+      <disable_collisions link1="distal_pad_1" link2="proximal_1" reason="Adjacent" />
+      <disable_collisions link1="proximal_1" link2="distal_1" reason="Adjacent" />
+      <disable_collisions link1="distal_pad_1" link2="proximal_pad_1" reason="Adjacent" />
+      <disable_collisions link1="distal_1" link2="proximal_pad_1" reason="Adjacent" />
+
+
+      <disable_collisions link1="right_gripper_base" link2="swivel_2" reason="Adjacent" />
+      <disable_collisions link1="swivel_2" link2="proximal_2" reason="Adjacent" />
+      <disable_collisions link1="proximal_2" link2="finger_3_/flex_link_1_" reason="Adjacent" />
+      <disable_collisions link1="finger_3_/flex_link_1_" link2="finger_3_/flex_link_2_" reason="Adjacent" />
+      <disable_collisions link1="finger_3_/flex_link_2_" link2="finger_3_/flex_link_3_" reason="Adjacent" />
+      <disable_collisions link1="finger_3_/flex_link_3_" link2="finger_3_/flex_link_4_" reason="Adjacent" />
+      <disable_collisions link1="finger_3_/flex_link_4_" link2="finger_3_/flex_link_5_" reason="Adjacent" />
+      <disable_collisions link1="finger_3_/flex_link_5_" link2="finger_3_/flex_link_6_" reason="Adjacent" />
+      <disable_collisions link1="finger_3_/flex_link_6_" link2="finger_3_/flex_link_7_" reason="Adjacent" />
+      <disable_collisions link1="finger_3_/flex_link_7_" link2="finger_3_/flex_link_8_" reason="Adjacent" />
+      <disable_collisions link1="finger_3_/flex_link_8_" link2="finger_3_/flex_link_9_" reason="Adjacent" />
+      <disable_collisions link1="finger_3_/flex_link_9_" link2="distal_2" reason="Adjacent" />
+      <disable_collisions link1="distal_2" link2="distal_pad_2" reason="Adjacent" />
+      <disable_collisions link1="distal_2" link2="distal_2_tactile" reason="Adjacent" />
+      <disable_collisions link1="proximal_2" link2="proximal_pad_2" reason="Adjacent" />
+      <disable_collisions link1="proximal_2" link2="proximal_2_tactile" reason="Adjacent" />
+      <disable_collisions link1="distal_pad_2" link2="proximal_2" reason="Adjacent" />
+      <disable_collisions link1="proximal_2" link2="distal_2" reason="Adjacent" />
+      <disable_collisions link1="distal_pad_2" link2="proximal_pad_2" reason="Adjacent" />
+      <disable_collisions link1="distal_2" link2="proximal_pad_2" reason="Adjacent" />
+
+
+
+      <disable_collisions link1="right_gripper_base" link2="proximal_3" reason="Adjacent" />
+      <disable_collisions link1="proximal_3" link2="finger_3_/flex_link_1_" reason="Adjacent" />
+      <disable_collisions link1="finger_3_/flex_link_1_" link2="finger_3_/flex_link_2_" reason="Adjacent" />
+      <disable_collisions link1="finger_3_/flex_link_2_" link2="finger_3_/flex_link_3_" reason="Adjacent" />
+      <disable_collisions link1="finger_3_/flex_link_3_" link2="finger_3_/flex_link_4_" reason="Adjacent" />
+      <disable_collisions link1="finger_3_/flex_link_4_" link2="finger_3_/flex_link_5_" reason="Adjacent" />
+      <disable_collisions link1="finger_3_/flex_link_5_" link2="finger_3_/flex_link_6_" reason="Adjacent" />
+      <disable_collisions link1="finger_3_/flex_link_6_" link2="finger_3_/flex_link_7_" reason="Adjacent" />
+      <disable_collisions link1="finger_3_/flex_link_7_" link2="finger_3_/flex_link_8_" reason="Adjacent" />
+      <disable_collisions link1="finger_3_/flex_link_8_" link2="finger_3_/flex_link_9_" reason="Adjacent" />
+      <disable_collisions link1="finger_3_/flex_link_9_" link2="distal_2" reason="Adjacent" />
+      <disable_collisions link1="distal_3" link2="distal_pad_3" reason="Adjacent" />
+      <disable_collisions link1="distal_3" link2="distal_3_tactile" reason="Adjacent" />
+      <disable_collisions link1="proximal_3" link2="proximal_pad_3" reason="Adjacent" />
+      <disable_collisions link1="proximal_3" link2="proximal_3_tactile" reason="Adjacent" />
+      <disable_collisions link1="distal_pad_3" link2="proximal_3" reason="Adjacent" />
+      <disable_collisions link1="proximal_3" link2="distal_3" reason="Adjacent" />
+      <disable_collisions link1="distal_pad_3" link2="proximal_pad_3" reason="Adjacent" />
+      <disable_collisions link1="distal_3" link2="proximal_pad_3" reason="Adjacent" />
+
+
+      <disable_collisions link1="pad" link2="head" reason="Never" />
+      <disable_collisions link1="pad" link2="${side}_hand" reason="Adjacent" />
+      <disable_collisions link1="pad" link2="${side}_hand_camera" reason="Never" />
+      <disable_collisions link1="pad" link2="${side}_hand_range" reason="Never" />
+      <disable_collisions link1="pad" link2="${side}_lower_elbow" reason="Never" />
+      <disable_collisions link1="pad" link2="${side}_lower_forearm" reason="Never" />
+      <disable_collisions link1="pad" link2="${side}_upper_elbow_visual" reason="Never" />
+      <disable_collisions link1="pad" link2="${side}_upper_forearm" reason="Never" />
+      <disable_collisions link1="pad" link2="${side}_upper_forearm_visual" reason="Never" />
+      <disable_collisions link1="pad" link2="${side}_wrist" reason="Never" />
+      <disable_collisions link1="pad" link2="${side}_hand_camera" reason="Never" />
+      <disable_collisions link1="pad" link2="${side}_hand_range" reason="Never" />
+      <disable_collisions link1="pad" link2="screen" reason="Never" />
+      <disable_collisions link1="pad" link2="sonar_ring" reason="Never" />
+      <disable_collisions link1="pad" link2="distal_1" reason="Never" />
+      <disable_collisions link1="pad" link2="distal_2" reason="Never" />
+      <disable_collisions link1="pad" link2="distal_3" reason="Never" />
+      <disable_collisions link1="pad" link2="distal_pad_1" reason="Never" />
+      <disable_collisions link1="pad" link2="distal_pad_2" reason="Never" />
+      <disable_collisions link1="pad" link2="distal_pad_3" reason="Never" />
+      <disable_collisions link1="pad" link2="proximal_1" reason="Never" />
+      <disable_collisions link1="pad" link2="proximal_2" reason="Never" />
+      <disable_collisions link1="pad" link2="proximal_3" reason="Never" />
+      <disable_collisions link1="pad" link2="proximal_pad_1" reason="Never" />
+      <disable_collisions link1="pad" link2="proximal_pad_2" reason="Never" />
+      <disable_collisions link1="pad" link2="proximal_pad_3" reason="Never" />
+      <disable_collisions link1="pad" link2="swivel_1" reason="Never" />
+      <disable_collisions link1="pad" link2="swivel_2" reason="Never" />
+      <disable_collisions link1="pad" link2="proximal_3" reason="Never" />
+
+      
+      <disable_collisions link1="right_gripper" link2="base_tactile" reason="Adjacent" />
+      <disable_collisions link1="right_gripper" link2="pad" reason="Adjacent" /> 
+      <disable_collisions link1="right_gripper" link2="swivel_1" reason="Adjacent" />
+      <disable_collisions link1="right_gripper" link2="swivel_2" reason="Adjacent" />
+      <disable_collisions link1="right_gripper" link2="proximal_3" reason="Adjacent" />
+      <disable_collisions link1="right_gripper" link2="distal_pad_1" reason="Adjacent" />
+      <disable_collisions link1="right_gripper" link2="distal_pad_2" reason="Adjacent" />
+      <disable_collisions link1="right_gripper" link2="distal_pad_3" reason="Adjacent" />
+      <disable_collisions link1="right_gripper" link2="proximal_pad_1" reason="Adjacent" />
+      <disable_collisions link1="right_gripper" link2="proximal_pad_2" reason="Adjacent" />
+      <disable_collisions link1="right_gripper" link2="proximal_pad_3" reason="Adjacent" />
+
+      <disable_collisions link1="right_gripper_base" link2="distal_pad_1" reason="Adjacent" />
+      <disable_collisions link1="right_gripper_base" link2="distal_pad_2" reason="Adjacent" />
+      <disable_collisions link1="right_gripper_base" link2="distal_pad_3" reason="Adjacent" />
+      <disable_collisions link1="right_gripper_base" link2="proximal_pad_1" reason="Adjacent" />
+      <disable_collisions link1="right_gripper_base" link2="proximal_pad_2" reason="Adjacent" />
+      <disable_collisions link1="right_gripper_base" link2="proximal_pad_3" reason="Adjacent" />
+
+      <disable_collisions link1="right_gripper_base" link2="distal_1" reason="Never" />
+      <disable_collisions link1="right_gripper_base" link2="distal_2" reason="Never" />
+      <disable_collisions link1="right_gripper_base" link2="distal_3" reason="Never" />
+      <disable_collisions link1="right_gripper_base" link2="proximal_1" reason="Never" />
+      <disable_collisions link1="right_gripper_base" link2="proximal_2" reason="Never" />
+      <disable_collisions link1="right_gripper_base" link2="proximal_3" reason="Never" />
+
+      <disable_collisions link1="distal_pad_1" link2="distal_pad_2" reason="Never" />
+      <disable_collisions link1="distal_pad_2" link2="distal_pad_3" reason="Never" />
+      <disable_collisions link1="distal_pad_1" link2="distal_pad_3" reason="Never" />
+      <disable_collisions link1="distal_1" link2="distal_2" reason="Never" />
+      <disable_collisions link1="distal_2" link2="distal_3" reason="Never" />
+      <disable_collisions link1="distal_1" link2="distal_3" reason="Never" />
+      <disable_collisions link1="proximal_pad_1" link2="proximal_pad_2" reason="Never" />
+      <disable_collisions link1="proximal_pad_2" link2="proximal_pad_3" reason="Never" />
+      <disable_collisions link1="proximal_pad_1" link2="proximal_pad_3" reason="Never" />
+      <disable_collisions link1="proximal_1" link2="proximal_2" reason="Never" />
+      <disable_collisions link1="proximal_2" link2="proximal_3" reason="Never" />
+      <disable_collisions link1="proximal_1" link2="proximal_3" reason="Never" />
+
+      <disable_collisions link1="distal_pad_1" link2="distal_2" reason="Never" />
+      <disable_collisions link1="distal_pad_1" link2="distal_3" reason="Never" />
+      <disable_collisions link1="distal_pad_2" link2="distal_3" reason="Never" />
+      <disable_collisions link1="distal_pad_2" link2="distal_1" reason="Never" />
+      <disable_collisions link1="distal_pad_3" link2="distal_1" reason="Never" />
+      <disable_collisions link1="distal_pad_3" link2="distal_2" reason="Never" />
+      <disable_collisions link1="proximal_pad_1" link2="proximal_2" reason="Never" />
+      <disable_collisions link1="proximal_pad_1" link2="proximal_3" reason="Never" />
+      <disable_collisions link1="proximal_pad_2" link2="proximal_1" reason="Never" />
+      <disable_collisions link1="proximal_pad_2" link2="proximal_3" reason="Never" />
+      <disable_collisions link1="proximal_pad_3" link2="proximal_1" reason="Never" />
+      <disable_collisions link1="proximal_pad_3" link2="proximal_2" reason="Never" />
+
+    </xacro:macro>
+  </robot>

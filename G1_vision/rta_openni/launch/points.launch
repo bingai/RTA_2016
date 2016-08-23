@@ -1,0 +1,21 @@
+<!-- Entry point for using OpenNI2 devices -->
+<launch>
+    <!-- "camera" should uniquely identify the device. All topics are pushed down
+         into the "camera" namespace, and it is prepended to tf frame ids. -->
+    <arg name="camera_name" default="camera"/>
+    <arg name="namespace" default="remote"/>
+    <arg name="depth_ir_rgb_calibration_file_path" default="$(find rta_openni)/assets/calibration_depth_ir_rgb.xml"/>
+    <arg name="ir_arm_calibration_file_path" default="$(find rta_openni)/assets/calibration_ir_arm.xml"/>
+    <arg name="depth_displacement_file_path" default="$(find rta_openni)/assets/depth_displacement.xml"/>
+
+    <node pkg="rta_openni" type="points" name="$(arg namespace)_$(arg camera_name)" output="screen" />
+    <!-- launch-prefix="gdb -ex run"/>-->
+    
+    <!-- parameters -->
+    <param name="camera_name" type="str" value="$(arg camera_name)"/>
+    <param name="namespace" type="str" value="$(arg namespace)"/>
+    <param name="depth_ir_rgb_calibration_file_path" type="str" value="$(arg depth_ir_rgb_calibration_file_path)"/>
+    <param name="ir_arm_calibration_file_path" type="str" value="$(arg ir_arm_calibration_file_path)"/>
+    <param name="depth_displacement_file_path" type="str" value="$(arg depth_displacement_file_path)"/>
+
+</launch>

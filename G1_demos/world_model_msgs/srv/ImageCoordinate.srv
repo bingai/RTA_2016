@@ -1,0 +1,6 @@
+#
+string location_id
+int32 row
+int32 col
+---
+bool success

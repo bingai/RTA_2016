@@ -1,0 +1,13 @@
+*~
+
+# Build output
+build/
+bin/
+lib/
+CMakeFiles/
+CMakeCache.txt
+cmake_uninstall.cmake
+cmake_install.cmake
+install_manifest.txt
+*.so
+/home/arclab/arc_ws/src/g1_3rd/sisyphus/Makefile

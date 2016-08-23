@@ -1,0 +1,8 @@
+<launch>
+
+  <!-- Start the test -->
+  <node name="grasp_generator_client" pkg="grasp_generator" type="grasp_generator_client" output="screen">
+    <rosparam command="load" file="$(find grasp_generator)/config/baxter_grasp_data.yaml"/>
+  </node>
+
+</launch>

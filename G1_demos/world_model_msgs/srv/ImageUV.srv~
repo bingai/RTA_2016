@@ -1,0 +1,4 @@
+#
+world_model_msgs/Object[] objects_info
+---
+bool success

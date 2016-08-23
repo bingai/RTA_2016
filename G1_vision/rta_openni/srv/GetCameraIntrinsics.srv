@@ -1,0 +1,6 @@
+string which_camera
+---
+bool success
+string message
+float64[9] camera_matrix_array
+float64[5] distortion_coefficient_array

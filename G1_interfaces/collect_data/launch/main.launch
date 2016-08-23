@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<launch>
+  <node name="collect_data" pkg="collect_data" type="collect_frame_eigen" respawn="false" output="screen" args="joint_states:=/robot/joint_states" />
+</launch>
